@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Users</title>
+</head>
+<body>
+    Welcome Home
+    <br>
+    Displayname: {{request.user.displayname}}
+    <br>
+    Username: {{request.user.username}}
+    <br>
+    age: {{request.user.age}}
+    <br>
+    {{user_model}}
+    <br>
+    <span>sign up <a href="signup/">here</a></span>
+    <br>
+    <span>sign out <a href="logout/">here</a></span>
+</body>
+</html>
